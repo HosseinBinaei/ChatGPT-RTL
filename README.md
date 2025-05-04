@@ -20,4 +20,4 @@
 
 ## 💡 مشارکت
 
-پیشنهادات، باگ‌ها و درخواست‌های بهبود را در بخش [Issues](https://github.com/your-username/chatgpt-rtl-enhancer/issues) مطرح کنید یا Pull Request بفرستید 🙌
+پیشنهادات، باگ‌ها و درخواست‌های بهبود را در بخش [Issues](https://github.com/HosseinBinaei/ChatGPT-RTL/issues) مطرح کنید یا Pull Request بفرستید 🙌
