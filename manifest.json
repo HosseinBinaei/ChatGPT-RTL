@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ChatGPT RTL",
+  "version": "2.6.0",
+  "description": "Adds RTL support and right alignment for ChatGPT responses, improving readability for Persian and Arabic users.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": ["fonts/vazir.ttf"]
+}
