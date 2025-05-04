@@ -2,7 +2,7 @@
 
 **بهبود تجربه کار با ChatGPT برای کاربران فارسی‌زبان**
 
-🔗 [صفحه افزونه در Firefox Add-ons](https://addons.mozilla.org/en-US/developers/addon/chatgpt_rtl)
+🔗 [نصب افزونه در Firefox](https://addons.mozilla.org/en-US/firefox/addon/chatgpt_rtl/)
 
 ## ✨ ویژگی‌ها
 
