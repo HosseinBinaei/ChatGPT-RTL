@@ -1,4 +1,4 @@
-// version: 2.6.0
+// version: 2.6.1
 
 function updateAssistantMessages() {
   let assistantMessages = document.querySelectorAll(
