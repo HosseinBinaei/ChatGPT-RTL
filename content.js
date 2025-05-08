@@ -1,4 +1,4 @@
-// version: 2.6.0
+// version: 2.6.1
 
 function updateAssistantMessages() {
   let assistantMessages = document.querySelectorAll(
@@ -11,10 +11,10 @@ function updateAssistantMessages() {
     message.style.border = "1px solid gray";
     message.style.padding = "10px 30px";
     message.style.borderRadius = "5px";
-
+    message.style.overflow = "auto";
     let containsPersian = /[آ-ی]/.test(textContent);
     let codeBlocks = message.querySelectorAll("pre, code");
-
+    let table = message.querySelectorAll("table");
     if (containsPersian) {
       message.style.direction = "rtl";
       message.style.textAlign = "right";
@@ -32,7 +32,9 @@ function updateAssistantMessages() {
         block.style.textAlign = "left";
       });
     }
-
+    table.forEach((p)=> {
+      p.style.paddingLeft= "60px";
+    });
     let katexElements = message.querySelectorAll(".katex");
     katexElements.forEach((el) => {
       el.style.textAlign = "left";
